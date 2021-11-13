@@ -13,6 +13,8 @@
 		925F94AF273FE74200E8BC70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925F94AE273FE74200E8BC70 /* Preview Assets.xcassets */; };
 		925F94B1273FE74200E8BC70 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F94B0273FE74200E8BC70 /* Persistence.swift */; };
 		925F94B4273FE74200E8BC70 /* iExpense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 925F94B2273FE74200E8BC70 /* iExpense.xcdatamodeld */; };
+		925F94BD2740181300E8BC70 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F94BC2740181300E8BC70 /* ExpenseItem.swift */; };
+		925F94BF27401D7800E8BC70 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F94BE27401D7800E8BC70 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		925F94AE273FE74200E8BC70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		925F94B0273FE74200E8BC70 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		925F94B3273FE74200E8BC70 /* iExpense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iExpense.xcdatamodel; sourceTree = "<group>"; };
+		925F94BC2740181300E8BC70 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		925F94BE27401D7800E8BC70 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				925F94A7273FE74100E8BC70 /* iExpenseApp.swift */,
 				925F94A9273FE74100E8BC70 /* ContentView.swift */,
+				925F94BE27401D7800E8BC70 /* AddView.swift */,
+				925F94BC2740181300E8BC70 /* ExpenseItem.swift */,
 				925F94AB273FE74200E8BC70 /* Assets.xcassets */,
 				925F94B0273FE74200E8BC70 /* Persistence.swift */,
 				925F94B2273FE74200E8BC70 /* iExpense.xcdatamodeld */,
@@ -144,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				925F94B1273FE74200E8BC70 /* Persistence.swift in Sources */,
+				925F94BD2740181300E8BC70 /* ExpenseItem.swift in Sources */,
+				925F94BF27401D7800E8BC70 /* AddView.swift in Sources */,
 				925F94AA273FE74100E8BC70 /* ContentView.swift in Sources */,
 				925F94B4273FE74200E8BC70 /* iExpense.xcdatamodeld in Sources */,
 				925F94A8273FE74100E8BC70 /* iExpenseApp.swift in Sources */,
